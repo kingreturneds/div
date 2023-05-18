@@ -1,0 +1,51 @@
+.ambs{
+    
+    padding-bottom: 800px;
+    border: 5px solid rgb(15, 223, 223);
+    margin: 250px;
+    margin-top: 1%;
+    box-shadow: 10px 5px 2000px rgb(65, 77, 78);
+   background-color: #bdc4c3;
+    
+   
+}   
+h1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0px;
+ border:xp;
+ background-color: rgb(41, 45, 48);
+    border-radius: 2px; 
+    color: aliceblue    ;
+}
+hr{
+    margin: 0%;
+}
+body{
+    background:linear-gradient(45deg,#4b6164,#8c8f8a,#000000,#264f5c,#d4cece);
+    background-size: 300%;
+    animation: color 12s ease-in-out infinite;
+    
+    
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+        }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+

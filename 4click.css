@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(68, 67, 67);
+  
+}
+.right{
+    float: right;
+}
+hr{
+    color: rgb(13, 39, 39);
+}
+button{
+    color: rgb(249, 255, 249);
+    background-color: black;
+    border-radius: 50px;
+    
+}
+    

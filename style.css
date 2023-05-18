@@ -1,0 +1,114 @@
+.sky {
+    border: px solid #0092a5;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+    padding-top: 0%;
+    color: rgb(26, 23, 23); 
+    margin-top: 0%;
+    
+}
+
+.uww{
+    border: 1px ;
+    color: rgb(26, 23, 23);
+    float: left;
+    margin-top: 0px;
+    
+    font-size: 10px;
+}
+.uwe{
+    border: 1px ;
+    display: flex;
+    justify-content: right;
+    
+
+}
+
+body{
+    background:linear-gradient(45deg,#4b6164,#8c8f8a,#000000,#264f5c,#d4cece);
+    background-size: 300%;
+    animation: color 12s ease-in-out infinite;
+    
+    
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+        }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    
+    border-radius: 7px;
+   
+}
+button:hover{
+    box-shadow: 0 0 5px rgb(3, 211, 211), 0 0 10px rgb(3, 211, 211), 0 0 12px rgb(3, 211, 211)inset;
+    transform: scale(1.1);
+}
+
+.skt{
+
+    border-radius: 20px;
+    
+}
+
+input {
+    margin:0%;
+    padding: 25px;
+    border-radius: 7px;
+}
+input:hover:focus{
+    box-shadow:0 0 5px rgb(3, 211, 211), 0 0 10px rgb(3, 211, 211), 0 0 12px rgb(3, 211, 211)inset; 
+    outline: 4px solid rgb(121, 3, 3);
+}
+.sko ,.sku , .skr ,.ske{   
+    margin: 2px;
+    
+    
+    
+}
+.ski{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    background-color: #a79f9f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 800px;
+    border: px solid rgb(18, 20, 20);
+    margin: 250px;
+    margin-top: 1%;
+    justify-content: center;
+    box-shadow: 10px 5px 2000px rgb(5, 237, 253);
+}
+.ski_2{
+    display: flex;
+    margin: 20px;
+    border: 0px solid green;
+    justify-content: center;
+    align-items: center;
+  
+}
+ul {
+    padding-left: 10%;
+}
+
+
+
+
+    
+
+
+
+   
+
+

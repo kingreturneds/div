@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>neon</title>
+  <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+  <div class="neon">
+    <button>
+      
+    </button>
+  </div>
+  
+  <div class="neo">
+    <button>
+      
+    </button>
+  </div>
+  
+  
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+.hee{
+	padding-bottom: 10px;
+    border: 5px solid rgb(212, 212, 224);
+    margin: 20px;
+    margin-top: 1%;
+    box-shadow: 1px 1px 200000px rgb(5, 237, 253);
+    
+}
+
+
+input{
+	display: flex;
+    justify-content: center;
+    align-items:center;
+    box-shadow: 1px 1px 200px rgb(255, 237, 253);
+  
+}
+
+
+</style>
+<h1>HTML DOM Events</h1>
+<h2>The oninput Event</h2>
+<div class="ehe">
+<p>Write something in the text field to trigger a function.</p>
+</div>
+<input type="text" id="myInput" oninput="myFunction()">
+<br>
+<input type="text" placeholder="search_1" id="myInps" oninput="myFunctn()">
+<div class="hee">
+<p id="dem"></p>
+<script>
+function myFunction() {
+  let text = document.getElementById("myInput").value;
+  document.getElementById("demo").innerHTML = "You wrote: " + text;
+}
+
+</script>
+<p id="demo"></p>
+<script>
+function myFunctn(){
+let text = document.getElementById("myInps").value;
+  document.getElementById("dem").innerHTML = "you are: " + text;
+}
+
+</script>
+</div>
+</body>
+</html>
