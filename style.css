@@ -1,6 +1,8 @@
 *{
     padding-inline: 0%;
     margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
 }
 .sky {
     border: px solid #0092a5;
@@ -120,6 +122,25 @@ input:hover:focus{
     
 }
 
+.ski::before{
+    content:'';
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background: linear-gradient(black,rgb(240, 240, 243));
+    animation:rotate 4s linear infinite;
+    margin-top: 1%;
+    margin-left: 1%;
+    
+}
+@keyframes 
+    rotate {form{ transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
 
 .ski_2{
     display: flex;

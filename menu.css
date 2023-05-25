@@ -1,3 +1,9 @@
+*{
+    padding-inline: 0%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
+}
 .ambs{
     
     padding-bottom: 800px;
