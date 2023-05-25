@@ -125,13 +125,16 @@ input:hover:focus{
 .ski::before{
     content:'';
     position:absolute;
-    width:100px;
-    height:100px;
+    width:150px;
+    height:150px;
     border-radius: 50%;
     background: linear-gradient(black,rgb(240, 240, 243));
     animation:rotate 4s linear infinite;
-    margin-top: 1%;
-    margin-left: 1%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
     
 }
 @keyframes 
