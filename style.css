@@ -75,7 +75,7 @@ button{
 }
 button:hover{
     box-shadow: 0 0 5px rgb(3, 211, 211), 0 0 10px rgb(3, 211, 211), 0 0 12px rgb(3, 211, 211)inset;
-    transform: scale(1.1);
+    transform: scale(1.2);
     
 }
 
